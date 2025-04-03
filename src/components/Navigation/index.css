@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Центрирование элементов по вертикали */
+    width: 40vw;
+    background: linear-gradient(90deg, #D78670, #D7BB70);
+    border-radius: 15px;
+    padding: 1vw 2vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vw;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center; /* Центрирование элементов по вертикали */
+    gap: 3vw;
+    width: 100%;
+}
+
+.nav_container img {
+    height: 4vw; /* Задаем фиксированную высоту */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Центрируем ссылки */
+    flex-grow: 1; /* Даем контейнеру ссылок возможность занимать всё доступное пространство */
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333333;
+    font-weight: 800;
+    padding: 1vw 1.3vw;
+    border-radius: 3vw;
+    transition: 0.3s ease-in-out;
+}
+
+
+.nav-link:active {
+    color: #C0D06D;
+}
+
+.nav-link:hover {
+    font-size: 1.5rem;
+}
+
+.nav-link:focus {
+    color:  #C0D06D;
+}

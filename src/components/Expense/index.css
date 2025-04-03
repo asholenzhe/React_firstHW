@@ -1,0 +1,44 @@
+.expenseContainer {
+    padding: 0;
+}
+.expenseItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #333333;
+    background-color: #C0D06D;
+    border-bottom: none;
+    border-radius: 1vw;
+    font-size: 16px;
+}
+
+.expenseItem:last-child {
+    border-bottom: none;
+}
+
+.expenseItem p {
+    color: #333333;
+    margin: 0;
+    font-weight: 500;
+}
+
+.expenseItem img{
+    width: 1vw;
+    height: 1vw;
+}
+
+.expenseItem button {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #D78670;
+    border: none;
+    border-radius: 0.6vw;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.expenseItem button:hover {
+    background: #c82333;
+}
