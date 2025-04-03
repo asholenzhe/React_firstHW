@@ -1,0 +1,80 @@
+.expenseForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    background: #D7BB70;
+    border-radius: 1.2vw;
+    box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.1);
+    max-width: 40vw;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.expenseFormInput {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.expenseFormInput label {
+    font-weight: 800;
+    color: #333333;
+    font-size: 1.8vw;
+}
+
+.expenseForm input {
+    background-color: #D78670;
+    padding: 1vw;
+    font-size: 1.6vw;
+    border: 0.1vw solid #333333;
+    color: #333333;
+    border-radius: 0.6vw;
+    transition: 0.2s ease-in-out;
+}
+
+.expenseForm input:focus {
+    border-color: #888888;
+    outline: none;
+}
+
+.expenseForm button {
+    padding: 1vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #333333;
+    background: #C0D06D;
+    border: 0.1vw solid #333333;
+    border-radius: 0.6vw;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.expenseForm button:hover {
+    background: #D78670;
+}
+
+.expenseAmountContainer {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.expenseFormInputAmount {
+    flex: 1;
+    padding: 1vw;
+    font-size: 1.6vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.6vw;
+    transition: 0.2s ease-in-out;
+}
+
+.currencySelect {
+    color: #D78670;
+    padding: 1vw;
+    font-size: 1.6vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.6vw;
+    background: #333333;
+    cursor: pointer;
+}

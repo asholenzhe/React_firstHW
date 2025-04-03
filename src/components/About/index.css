@@ -1,0 +1,27 @@
+
+.about_text{
+    border-radius: 2vw;
+    border: 4px solid #C0D06D;
+    color: #333333;
+    background-color: #D7BB70;
+    padding: 5vw;
+    animation-name: slowmo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    box-shadow: 2px 2px 5px #D78670;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+@keyframes slowmo {
+    from {
+        opacity: 0;
+        left: 100vw;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
